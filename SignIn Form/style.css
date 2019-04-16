@@ -1,0 +1,215 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+a {
+	text-decoration: none;
+	color: white;
+}
+
+form[name=signIn] {
+	width: 400px;
+	border: 1px solid lightgrey;
+	border-radius: 5px;
+	box-shadow: 0 0 3px grey;
+	font-family: sans-serif;
+	font-size: 14px;
+	padding: 20px;
+	margin: 20px auto;
+}
+
+form[name=signIn] p {
+	width: 398px;
+	height: 50px;
+	text-align: center;
+	color: white;
+	background-color: limegreen;
+	border-top-left-radius: 4px;
+	border-top-right-radius: 4px;
+	padding: 15px;
+	margin: -20px 0 20px -20px;
+}
+
+form[name=signIn] input[type=button] {
+	width: 360px;
+	height: 40px;
+	color: white;
+	background-color: limegreen;
+	opacity: 0.5;
+	border-color: limegreen;
+	border-radius: 5px;
+	margin: 15px auto;
+}
+
+input[type=text],
+select {
+	width: 360px;
+	height: 30px;
+	border: 1px solid lightgrey;
+	border-radius: 2px;
+	padding: 5px;
+	margin: 10px auto;
+}
+
+label {
+	position: relative;
+}
+
+select {
+	padding: 5px;
+	-webkit-appearance: none;
+	background: url(img/arrow.png) no-repeat right center;
+	background-size: 10px 15px;
+}
+
+hr {
+	background: lightgrey;
+	border-top: 0;
+}
+
+.userForm {
+	width: 400px;
+	background-color: white;
+	border: 1px solid lightgrey;
+	font-family: sans-serif;
+	font-size: 14px;
+	margin: 50px auto;
+
+}
+
+.userForm p {
+	height: 30px;
+	text-align: center;
+	margin-top: 5px;
+}
+
+.formHeader {
+	height: 130px;
+	background-color: limegreen;
+}
+
+.formFooter {
+	height: 50px;
+	background-color: limegreen;
+	color: white;
+	text-align: center;
+	padding-top: 10px;
+}
+
+.fab {
+	font-size: 20px;
+	margin: 5px;
+}
+
+.userForm input[type=button] {
+	width: 70px;
+	height: 30px;
+	color: darkgreen;
+	border: 1px solid darkgreen;
+	background-color: white;
+	border-radius: 3px;
+	box-shadow: 0 0 1px lightgrey;
+	margin: 20px 0 20px 160px;
+}
+
+.userForm input[type=button]:hover {
+	color: white;
+	border: 1px solid limegreen;
+	background-color: limegreen;
+	cursor: pointer;
+}
+
+.hideForm {
+	display: none;
+}
+
+.marg-right {
+	margin-right: 10px;
+}
+
+.padd-left {
+	padding-left: 20px;
+}
+
+#userPhoto {
+	width: 100px;
+	height: 100px;
+	background-color: lightcoral;
+	background-size: cover;
+	border: 3px solid snow;
+	box-shadow: 0 0 2px lightgrey;
+	border-radius: 50%;
+	margin: -50px auto 20px;
+}
+
+/*- Стилізація radioButton & checkBox-*/
+input[type=radio] {
+	margin: 10px 0 20px;
+}
+
+input[type=checkbox],
+input[type=radio] {
+	display: none
+}
+
+.stylish-checkbox,
+.stylish-radio {
+	width: 11px;
+	height: 11px;
+	position: absolute;
+	left: 0;
+	top: 2px;
+	background-color: lightgrey;
+	box-shadow: 0 0 1px lightgrey;
+	border-radius: 2px;
+	margin-right: 10px;
+}
+
+
+.stylish-radio {
+	border-radius: 50%
+}
+
+input[type=checkbox]:checked + .stylish-checkbox::before {
+	content: '\2714';
+	display: block;
+	width: 11px;
+	height: 11px;
+	position: absolute;
+	top: 0;
+	left: 0;
+	color: snow;
+	text-align: center;
+	font-size: 8px;
+	font-weight: 900;
+	background: skyblue;
+	box-shadow: 0 0 1px skyblue;
+	border-radius: 1px;
+}
+
+input[type=radio]:checked + .stylish-radio::before {
+	content: '';
+	display: block;
+	width: 11px;
+	height: 11px;
+	position: absolute;
+	top: 0;
+	left: 0;
+	text-align: center;
+	vertical-align: middle;
+	color: snow;
+	font-size: 8px;
+	background: white;
+	border-radius: 50%;
+	box-sizing: border-box;
+	border: 3px solid skyblue;
+}
+
+.stylish-radio:active {
+	box-shadow: 0 0 2px blue;
+
+}
+
+/*-end-*/

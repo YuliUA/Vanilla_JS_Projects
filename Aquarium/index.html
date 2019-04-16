@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<title>JS lesson 6</title>
+	<style>
+		body{
+			height: 90vh;
+			background: url('aquatic.jpg') no-repeat;
+			background-size: cover;
+		}
+		#buttonLeft,
+		#buttonRight,
+		#buttonUp,
+		#buttonDown{
+			width: 100px;
+			height: 25px;
+			background-color: blueviolet;
+			border: 2px groove blueviolet;
+			color: aliceblue;
+			font-weight: 900;
+			font-family: monospace;
+			margin: 10px
+		}
+		button:active{
+			outline: 1px dotted blueviolet;
+		}
+		#man{
+			width: 200px;
+			position: absolute;
+			left: 600px;
+			top: 100px;
+			transition: 0.7s
+		}
+		.rotateLeft{
+			transform: rotate3d(0.25, 1, 0, 180deg)
+		}
+		.rotateRight{
+			transform: rotateZ(40deg)
+		}
+		.rotateDown{
+			transform: rotate(90deg)
+		}
+	</style>
+</head>
+
+<body>
+	<button id="buttonLeft">Left</button>
+	<button id="buttonRight">Right</button>
+	<button id="buttonUp">Up</button>
+	<button id="buttonDown">Down</button>
+	<img src="goldfish.png" alt="Cute_boy_and_girl" id="man">
+	<script src="script.js"></script>
+</body>
+
+</html>

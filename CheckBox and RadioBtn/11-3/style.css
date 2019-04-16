@@ -1,0 +1,55 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body{
+	background: url(img/4k-wallpaper-apple-devices-blur-1268477.jpg) no-repeat center top;
+	background-size: cover;
+}
+#wraperForm{
+	width: 720px;
+	height: 546px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background: url(img/kisspng-leaf-white-ipad-5a7a50142cea18.262038671517965332184.png) no-repeat;
+	background-size:cover;
+}
+form{
+	width: 235px;
+	height: 350px;
+	padding: 20px;
+	background-color: cornsilk;
+	border: 2px groove snow;
+	display: flex;
+	flex-direction: column;
+	overflow: hidden;
+}
+p{
+	font-weight: 900;
+	text-align: center;
+}
+input{
+	margin-top: 10px
+}
+input[type=checkbox]{
+	margin-right: 10px
+}
+input[type=text]{
+	width: 200px;
+	height: 20px;
+	border: none;
+	border-bottom: 1px solid black;
+}
+input[type=button]{
+	width: 80px;
+	background: black;
+	color: white;
+	padding: 7px 15px;
+	border-radius: 15px;
+	margin: 10px auto
+}
+input[type=text]:focus{
+	background-color: lightgoldenrodyellow;
+}

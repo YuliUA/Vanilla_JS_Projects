@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<title>UserForm Lesson 10</title>
+	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+</head>
+
+<body>
+	<div id="wraperSignIn">
+		<form action="" name="signIn">
+			<p>Sign In</p>
+			<label>First Name</label><br>
+			<input type="text" name="first_name" placeholder="type here..." autofocus><br>
+			<label>Second Name</label><br>
+			<input type="text" name="second_name" placeholder="type here..."><br>
+			<label>Email address</label><br>
+			<input type="text" name="email" placeholder="type here..."><br>
+			<label class="marg-right padd-left">
+				<input type="radio" name="rb">
+				<span class="stylish-radio"></span>
+				<span>man</span>
+			</label>
+			<label class="marg-right padd-left">
+				<input type="radio" name="rb">
+				<span class="stylish-radio"></span>
+				<span>woman</span>
+			</label><br><br>
+			<label>Position</label><br>
+			<select name="choose" id="position">
+				<option value="Choose...">Choose...</option>
+				<option value="Frontend">Frontend</option>
+				<option value="Backend">Backend</option>
+				<option value="QC/QA">QC/QA</option>
+			</select><br>
+			<label>
+				<input type="checkbox" name="chBox" id="chBox">
+				<span class="stylish-checkbox"></span>
+				<span class="padd-left">I agree all statements in Terms of service</span>
+			</label>
+			<br><br>
+			<hr>
+			<input type="button" name="signInButton" value="Sign In" disabled>
+		</form>
+	</div>
+	<div id="form" class="userForm hideForm">
+		<div class="formHeader"></div>
+		<div id="userPhoto"></div>
+		<p id="userName"></p>
+		<p id="userEmail"></p>
+		<p id="userPosition"></p>
+		<hr>
+		<form action="" name="signOut">
+			<input type="button" name="signOutButton" value="Sign Out">
+		</form>
+		<div class="formFooter">
+			<a href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook-f"></i></a>
+			<a href="https://github.com/" target="_blank"><i class="fab fa-github"></i></a>
+			<a href="https://www.linkedin.com" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+		</div>
+	</div>
+
+	<script src="script.js"></script>
+</body>
+
+</html>

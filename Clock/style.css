@@ -1,0 +1,72 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+@font-face {
+    font-family:"Digital";
+    src: url("fonts/digital-7.ttf");
+}
+body{
+    overflow-x: hidden
+}
+#result{
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    font-size: 3vw;
+}
+.wraper{
+    width: 100vw;
+    background-color: #000000;
+    color: deepskyblue;
+    font-family: "Digital";
+    font-size: 7vw;
+    
+}
+.clock-field{
+    width: 100%;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    border: 1px solid deepskyblue;
+    padding: 50px;
+    margin: 5px;
+}
+
+.clock-field div{
+    width: 30vw;
+    margin:0 auto;
+    padding: 10px
+}
+.clock-field:first-child div:first-child{
+    font-size: 3vw;
+    
+}
+.bord-style{
+    background-color: #000000;
+    color: deepskyblue;
+    border: 1px solid deepskyblue;
+    border-radius: 3px;
+    padding: 3px;
+    justify-content: center;
+}
+#timer{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+.button-wraper{
+    display: flex;
+    align-self: center;
+}
+
+#setTimer p{
+    font-size: 3vw
+}
+#setTimer input{
+    width: 3vw
+}

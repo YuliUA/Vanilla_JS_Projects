@@ -1,0 +1,69 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+#field{
+	width: 80%;
+	height: 80vh;
+	border: 1px solid gray;
+	position: relative;
+	margin: 10vh auto;
+}
+form{
+	width: 300px;
+	height: 200px;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%,-50%);
+	border: 2px solid gray;
+	text-align: center;
+	padding: 10px;	
+}
+form>input[type=text]{
+	width: 50px;
+	height: 50px;
+	margin: 10px 5px;
+}
+
+label>input[type=text]{
+	width: 50px;
+}
+input[type=button]{
+	padding: 2px 5px;
+	margin: 10px;
+}
+span{
+	margin-right: 5px
+}
+.objBoxModel{
+	width: 50px;
+	height: 50px;
+	box-shadow: 0 0 2px black;
+	position: absolute;
+	left: 0;
+	top: 0;
+	margin: 10px;
+}
+.grey-box{
+	background: lightgray;
+	border: 1px solid black;
+	
+}
+.red-box{
+	background-color: crimson;
+	border: 4px groove red;
+	caret-color: crimson;
+}
+.green-box{
+	background: limegreen;
+	border: 4px groove green;
+	caret-color: limegreen;
+}
+.blue-box{
+	background: skyblue;
+	border: 4px groove blue;
+	caret-color: skyblue;
+}

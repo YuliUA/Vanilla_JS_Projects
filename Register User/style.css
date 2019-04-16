@@ -1,0 +1,20 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/*--нумерація рядків таблиці--*/
+table {
+    counter-reset: rowNumber -1;
+}
+
+table tr {
+    counter-increment: rowNumber;
+}
+
+.numeric::before {
+    content: counter(rowNumber);
+    display: table;
+}
+/*-*/

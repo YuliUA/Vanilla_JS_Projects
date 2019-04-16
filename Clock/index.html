@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>JS lesson 19</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="wraper">
+        <div class="clock-field">
+            <div id="myDate"></div>
+            <div id="digitalClock"></div>
+        </div>
+        <div class="clock-field">
+            <div id="stopWatch">00:00:00:000</div>
+            <div class="button-wraper">
+                <input type="button" id="start" value="START" class="bord-style">
+                <input type="button" id="loop" value="LOOP" class="bord-style">
+                <input type="button" id="stop" value="STOP" class="bord-style">
+                <input type="button" id="reset" value="RESET" class="bord-style">
+            </div>
+            <div id="result"></div>
+        </div>
+        <div class="clock-field">
+            <div id="setTimer">
+                <div id="time">00</div>
+                <p>minutes</p>
+                <div>
+                    <input type="button" id="btnPlus" class="bord-style" value="+">
+                    <input type="button" id="btnMinus" class="bord-style" value="-">
+                </div>
+            </div>
+            <div>
+                <div id="timer">00:00</div>
+                <div class="button-wraper">
+                    <input type="button" id="startTimer" value="START" class="bord-style">
+                    <input type="button" id="stopTimer" value="STOP" class="bord-style">
+                    <input type="button" id="resetTimer" value="RESET" class="bord-style">
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
